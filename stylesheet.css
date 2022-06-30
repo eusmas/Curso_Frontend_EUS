@@ -1,0 +1,27 @@
+/* Selectores combinados */
+
+div p{
+    color: lightcoral;
+}
+
+
+/* Selector por hijos directos */
+div > div{
+    background: burlywood;
+}
+
+.es{
+    background: lightgreen;
+}
+
+/*???*/
+div + section{
+    background: purple;
+}
+
+/*Selector de Hermanos*/
+
+div ~ p{
+    background: aqua;
+    color: blue;
+}

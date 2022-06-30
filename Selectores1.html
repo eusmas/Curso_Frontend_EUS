@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        background: rgb(150,160,255); /* esto es un selector general */
+    }
+
+    div{
+        background: red; /*esto selecciona todas las etiquetas div*/
+    }
+    .tittle{
+        background: blue; /*esto selecciona solo la clase tittle*/
+    }
+    #tittle2{
+        background: yellowgreen; /*Lo mismo que el anterior ?*/
+    }
+    a[href="https://www.youtube.com/"]{
+        color: bisque; /*esto selecciona una propiedad*/
+    }
+</style>
+<body>
+    <div>Se crea este item con la etiqueta div</div>
+    <div>Al momento de seleccionar las etiquetas div para cambiarles el formato, se seleccionan todas</div>
+    <div class="tittle">se crea un div pero con la clase llamada "tittle"</div>
+    <div id="tittle2">se crea un div pero con la clase llamada "tittle2"</div>
+    <a href="https://www.youtube.com/">Se crea un atributo a</a>
+
+</body>
+</html>
+
+

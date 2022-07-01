@@ -1,0 +1,21 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background: water;
+  }
+  
+  input:in-range {
+    background-color: rgba(114, 245, 114, 0.25);
+  }
+  
+  input:out-of-range {
+    background-color: rgba(245, 128, 128, 0.25);
+    border: 5px solid red;
+  }
+  
+  input:in-range + p::after {
+    content: 'Mayor de edad. 🚀';
+  }
+  
+  input:out-of-range + p::after {
+    content: 'Menor de edad. 🙈';
+  }

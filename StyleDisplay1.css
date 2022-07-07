@@ -1,13 +1,13 @@
-/* body {
+body {
   margin: 0;
-} */
+}
 div {
   background: salmon;
-  width: 200px;
+  width: 200px; 
   height: 200px;
   margin: 20px;
 }
-/* a {
+a {
   background: skyblue;
   width: 200px;
   height: 200px;
@@ -17,4 +17,6 @@ button {
   background: slateblue;
   width: 200px;
   height: 200px;
-} */
+  margin: 20px;
+
+}
